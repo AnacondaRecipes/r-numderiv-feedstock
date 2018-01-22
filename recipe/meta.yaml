@@ -10,8 +10,8 @@ package:
 source:
   fn: numDeriv_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/numDeriv_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/numDeriv/numDeriv_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/numDeriv_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/numDeriv/numDeriv_{{ version }}.tar.gz
   sha256: 1b681d273697dc780a3ac5bedabb4a257785732d9ca4ef68e4e4aac8b328d11e
 
 
